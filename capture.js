@@ -17,7 +17,7 @@ async function exportWebsiteAsPdf(url, outputPath) {
         scale: 0.7,
         landscape: false,
         path: outputPath,
-        margin: { top: '25px', right: '25px', bottom: '25px', left: '25px' },
+        margin: { top: '20px', right: '20px', bottom: '20px', left: '20px' },
         printBackground: true,
         format: 'A4',
     });
