@@ -14,7 +14,7 @@ async function exportWebsiteAsPdf(url, outputPath) {
     await page.emulateMediaType('screen');
     // Download the PDF
     const PDF = await page.pdf({
-        scale: 0.7,
+        scale: 0.65,
         landscape: false,
         path: outputPath,
         margin: { top: '20px', right: '20px', bottom: '20px', left: '20px' },
