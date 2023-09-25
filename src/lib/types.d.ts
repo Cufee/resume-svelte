@@ -20,7 +20,10 @@ export interface Position {
   tags?: string[];
   company: string;
   website?: string;
-  period: string;
+  period: {
+    from: string;
+    to?: string;
+  };
   location: string;
   description: string;
   achievements: string[];

@@ -5,6 +5,7 @@
 	import type { Resume } from '$lib/types';
 
 	import resume from '../resume.json';
+	import Experience from './Experience.svelte';
 	import Project from './Project.svelte';
 	import SectionTitle from './SectionTitle.svelte';
 	import Separator from './Separator.svelte';
@@ -26,22 +27,20 @@
 					{summary}
 				</span>
 			</div>
-			<div class="flex flex-col gap-1">
+			<div class="flex flex-col">
 				<div>
 					<SectionTitle>Experience</SectionTitle>
 					<Separator />
 				</div>
 				<div class="flex flex-col gap-4">
-					{#each positions as position}
-						<Position {position} />
-					{/each}
-				</div>
-				<div class="flex flex-row justify-center gap-2">
-					<a class="px-8 btn btn-ghost btn-sm" href={expandPositionsUrl}>
-						<div class="w-2 h-2 bg-gray-400 rounded-full" />
-						<div class="w-2 h-2 bg-gray-400 rounded-full" />
-						<div class="w-2 h-2 bg-gray-400 rounded-full" />
-					</a>
+					<Experience experience={positions} />
+					<div class="flex flex-row justify-center gap-2">
+						<a class="px-8 btn btn-ghost btn-sm" href={expandPositionsUrl}>
+							<div class="w-2 h-2 bg-gray-400 rounded-full" />
+							<div class="w-2 h-2 bg-gray-400 rounded-full" />
+							<div class="w-2 h-2 bg-gray-400 rounded-full" />
+						</a>
+					</div>
 				</div>
 			</div>
 		</div>

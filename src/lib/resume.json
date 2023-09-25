@@ -5,8 +5,8 @@
         "email": "vkouzin@outlook.com",
         "links": [
             {
-                "name": "linkedin.com/in/vkouzin/",
-                "url": "https://www.linkedin.com/in/vkouzin//"
+                "name": "linkedin.com/in/vkouzin",
+                "url": "https://www.linkedin.com/in/vkouzin/"
             },
             {
                 "name": "github.com/cufee",
@@ -26,7 +26,10 @@
             ],
             "company": "AlertMedia",
             "website": "https://www.alertmedia.com/",
-            "period": "05/2022 - 08/2023",
+            "period": {
+                "from": "2022",
+                "to": "2023"
+            },
             "location": "Remote",
             "achievements": [
                 "Developed multiple web applications for internal use by engineering and management teams",
@@ -45,7 +48,10 @@
             ],
             "company": "Chili Piper",
             "website": "https://www.chilipiper.com/",
-            "period": "02/2021 - 05/2022",
+            "period": {
+                "from": "2021",
+                "to": "2022"
+            },
             "location": "Remote",
             "achievements": [
                 "Built popular customer-facing tools and add-ons to expand the feature set of Chili Piper",
