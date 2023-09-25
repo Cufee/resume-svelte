@@ -75,8 +75,9 @@
         {
             "items": [
                 "CircleCI, BitBucket, GitHub",
-                "Docker, Kubernetes, Helm, Terraform",
-                "AWS, Google Cloud Platform, DigitalOcean"
+                "Docker, Kubernetes",
+                "Helm, Terraform",
+                "AWS, GCP, DigitalOcean"
             ]
         }
     ],
