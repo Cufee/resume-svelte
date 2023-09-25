@@ -2,6 +2,7 @@ export interface Resume {
   info: PersonalInfo;
   positions: Position[];
   summary: string;
+  expandPositionsUrl: string;
   skills: { header?: string; items: string[] }[];
   projects: [];
 }

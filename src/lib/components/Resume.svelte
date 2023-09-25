@@ -9,7 +9,8 @@
 	import SectionTitle from './SectionTitle.svelte';
 	import Separator from './Separator.svelte';
 
-	const { positions, summary, skills, info, projects } = resume as any as Resume;
+	const { positions, summary, skills, info, projects, expandPositionsUrl } =
+		resume as any as Resume;
 </script>
 
 <div id="page" class="flex flex-col gap-8 cursor-default">
@@ -35,10 +36,12 @@
 						<Position {position} />
 					{/each}
 				</div>
-				<div class="flex flex-row justify-center gap-2 pt-4">
-					<div class="w-2 h-2 bg-gray-400 rounded-full" />
-					<div class="w-2 h-2 bg-gray-400 rounded-full" />
-					<div class="w-2 h-2 bg-gray-400 rounded-full" />
+				<div class="flex flex-row justify-center gap-2">
+					<a class="px-8 btn btn-ghost btn-sm" href={expandPositionsUrl}>
+						<div class="w-2 h-2 bg-gray-400 rounded-full" />
+						<div class="w-2 h-2 bg-gray-400 rounded-full" />
+						<div class="w-2 h-2 bg-gray-400 rounded-full" />
+					</a>
 				</div>
 			</div>
 		</div>
