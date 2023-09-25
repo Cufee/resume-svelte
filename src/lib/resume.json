@@ -60,6 +60,25 @@
                 "Made an internal support portal aggregating data from multiple sources to provide a single source of truth for our Customer Success team",
                 "Maintained a Kubernetes cluster with all internal services and tools"
             ]
+        },
+        {
+            "title": "Customer Support",
+            "tags": [
+                "JavaScript",
+                "Python"
+            ],
+            "company": "Mixer.com",
+            "website": "https://killedbymicrosoft.info",
+            "period": {
+                "from": "2020",
+                "to": "2021"
+            },
+            "location": "Remote",
+            "achievements": [
+                "Designed custom tools and scripts to allow more organized workflows",
+                "Wrote documentation on routines for efficient troubleshooting of hardware and software issues",
+                "Handled highly confidential information"
+            ]
         }
     ],
     "skills": [
