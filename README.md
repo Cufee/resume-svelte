@@ -3,6 +3,8 @@
 This is just a simple project to build my own resume using svelte and serve it
 with Firebase.
 
+[https://vk-resume.web.app/](https://vk-resume.web.app/)
+
 ## Developing
 
 ```bash
