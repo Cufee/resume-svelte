@@ -3,59 +3,106 @@
         "name": "Vlad Kouzin",
         "slogan": "A great simplifier of all things technology based",
         "email": "vkouzin@outlook.com",
-        "number": "831 582-8604"
+        "number": "(831) 582-8604",
+        "links": [
+            {
+                "name": "linkedin.com/in/vkouzin/",
+                "url": "https://www.linkedin.com/in/vkouzin//"
+            },
+            {
+                "name": "github.com/cufee",
+                "url": "https://github.com/cufee"
+            }
+        ]
     },
     "summary": "Highly motivated and experienced software engineer seeking a remote position to leverage my skills in solving complex problems with simple, efficient solutions. Passionate about contributing to a team that values innovation, quality, and growth.",
     "positions": [
         {
-            "title": "Full Stack Developer",
+            "title": "Full Stack",
+            "tags": [
+                "React",
+                "Node",
+                "Terraform"
+            ],
             "company": "AlertMedia",
-            "website": null,
+            "website": "https://www.alertmedia.com/",
             "period": "05/2022 - 08/2023",
             "location": "Remote",
-            "description": "Application and cli tools development, refactoring, and various other tasks.",
             "achievements": [
-                "Refactored Docker Compose configurations for local development, designing a clear framework for maintaining and adding new services",
-                "Migrated Bitbucket pipelines to and advanced CircleCI configuration, reducing pipelines run time from over an hour to 7 minutes",
-                "Developed multiple web application to improve visibility into our deployment process and the state of various environments deployed to AWS",
-                "Developer multiple CLI tools for local development in order to automate new user setup and run Bitbucket pipelines locally"
+                "Developed multiple web applications for internal use by engineering and management teams",
+                "Built multiple CLI tools to automate common tasks for the engineering team and improve developer onboarding experience",
+                "Simplified Docker Compose configurations, designing a clear framework for maintaining and adding new services",
+                "Refactored legacy code, improved pipeline run time from over an hour to 7 minutes"
             ]
         },
         {
-            "title": "Full Stack Developer",
+            "title": "Full Stack",
+            "tags": [
+                "React",
+                "Node",
+                "Go",
+                "Kubernetes"
+            ],
             "company": "Chili Piper",
-            "website": null,
+            "website": "https://www.chilipiper.com/",
             "period": "02/2021 - 05/2022",
             "location": "Remote",
-            "description": "Built Chrome extensions, internal support portals, and customer-facing tools.",
             "achievements": [
-                "Built a unique Chrome extension for our Customer Love team, reducing response times and increasing customer satisfaction",
-                "Build an internal support portal allowing our Customer Success team to dig deeper into customer accounts without the needs to learn a query language",
-                "Built and maintained customer-facing tools and add-ons to expand the feature set of Chili Piper to meet niche requirements of our high profile customers",
-                "Maintained a server to host all the custom code and projects using Docker, Kubernetes, and Helm"
+                "Built popular customer-facing tools and add-ons to expand the feature set of Chili Piper",
+                "Wrote extensive documentation and \"magic\" scripts to simplify the onboarding process for new customers",
+                "Developed industry leading tools for our Customer Success team, reducing response times and increasing customer satisfaction",
+                "Made an internal support portal aggregating data from multiple sources to provide a single source of truth for our Customer Success team",
+                "Maintained a Kubernetes cluster with all internal services and tools"
             ]
         }
     ],
-    "skills": {
-        "Technologies": [
-            "Go",
-            "TypeScript",
-            "React",
-            "Svelte",
-            "NodeJS",
-            "Deno"
-        ],
-        "Software": [
-            "Docker",
-            "Kubernetes",
-            "Terraform",
-            "Firebase",
-            "CircleCI",
-            "BitBucket",
-            "Jira",
-            "Confluence",
-            "AWS",
-            "GCP"
-        ]
-    }
+    "skills": [
+        {
+            "items": [
+                "Go",
+                "Python",
+                "TypeScript"
+            ]
+        },
+        {
+            "items": [
+                "Node, Deno",
+                "Express, Fiber",
+                "React, Svelte, HTMX"
+            ]
+        },
+        {
+            "items": [
+                "CircleCI, BitBucket, GitHub",
+                "Docker, Kubernetes, Helm, Terraform",
+                "AWS, Google Cloud Platform, DigitalOcean"
+            ]
+        }
+    ],
+    "projects": [
+        {
+            "name": "Pulley",
+            "tags": [
+                "TypeScript",
+                "Deno"
+            ],
+            "description": "A user-friendly CLI tool for pulling and configuring multiple git repositories in parallel once."
+        },
+        {
+            "name": "Aftermath",
+            "tags": [
+                "Go",
+                "Kubernetes"
+            ],
+            "description": "Highly rated Discord Bot used by over 4000 servers. It provides a better in-game progress tracking for World Of Tanks Blitz with a beautiful UI rendered as an image."
+        },
+        {
+            "name": "OpenMemoryDB",
+            "tags": [
+                "Go",
+                "Fiber"
+            ],
+            "description": "A lightweight in-memory key-value database with support for persistence and a CRUD API wrapper using Go Fiber."
+        }
+    ]
 }

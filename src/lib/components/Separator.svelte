@@ -1,1 +1,1 @@
-<div class="border-b-4 border-b-white rounded-full" />
+<div class="m-0 divider" />

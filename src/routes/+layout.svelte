@@ -1,13 +1,8 @@
-<div class="max-w-6xl m-auto p-4">
+<div class="max-w-6xl p-4 m-auto">
 	<slot />
 </div>
 
 <style>
-	:global(body) {
-		background-color: #071e3d;
-		color: #ffffff;
-	}
-
 	@tailwind base;
 	@tailwind components;
 	@tailwind utilities;

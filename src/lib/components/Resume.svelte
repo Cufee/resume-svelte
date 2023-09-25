@@ -5,51 +5,66 @@
 	import type { Resume } from '$lib/types';
 
 	import resume from '../resume.json';
+	import Project from './Project.svelte';
+	import SectionTitle from './SectionTitle.svelte';
 	import Separator from './Separator.svelte';
 
-	const { positions, summary, skills, info } = resume as any as Resume;
+	const { positions, summary, skills, info, projects } = resume as any as Resume;
 </script>
 
 <div id="page" class="flex flex-col gap-8 cursor-default">
 	<Header {info} />
 	<div id="content" class="flex flex-row gap-8">
-		<div id="primary" class="basis-2/3 flex flex-col gap-4">
+		<div id="primary" class="flex flex-col gap-4 basis-2/3">
 			<div class="flex flex-col gap-1">
 				<div>
-					<h1 class="text-xl font-bold uppercase">Summary</h1>
+					<SectionTitle>Summary</SectionTitle>
 					<Separator />
 				</div>
-				<span>
+				<span class="prose">
 					{summary}
 				</span>
 			</div>
 			<div class="flex flex-col gap-1">
 				<div>
-					<h1 class="text-xl font-bold uppercase">Experience</h1>
+					<SectionTitle>Experience</SectionTitle>
 					<Separator />
 				</div>
-				<div class="flex flex-col gap-2">
+				<div class="flex flex-col gap-4">
 					{#each positions as position}
 						<Position {position} />
 					{/each}
 				</div>
-			</div>
-			<div class="flex flex-col gap-1">
-				<div>
-					<h1 class="text-xl font-bold uppercase">Skills</h1>
-					<Separator />
-				</div>
-				<div class="flex flex-col gap-2">
-					{#each Object.keys(skills) as header}
-						<SkillList {header} skills={skills[header]} />
-					{/each}
+				<div class="flex flex-row justify-center gap-2 pt-4">
+					<div class="w-2 h-2 bg-gray-400 rounded-full" />
+					<div class="w-2 h-2 bg-gray-400 rounded-full" />
+					<div class="w-2 h-2 bg-gray-400 rounded-full" />
 				</div>
 			</div>
 		</div>
-		<div id="sidebar" class="basis-1/3">
+		<div id="sidebar" class="flex flex-col gap-4 basis-1/3">
+			<div class="flex flex-col gap-1">
+				<div>
+					<SectionTitle>Skills</SectionTitle>
+					<Separator />
+				</div>
+				<div class="flex flex-col gap-2">
+					{#each skills as skillSet, i}
+						<SkillList header={skillSet.header} skills={skillSet.items} />
+						{#if i !== skills.length - 1}
+							<Separator />
+						{/if}
+					{/each}
+				</div>
+			</div>
 			<div id="projects">
-				<h1 class="text-xl font-bold">Projects</h1>
+				<SectionTitle>Projects</SectionTitle>
 				<Separator />
+				<div class="flex flex-col gap-4">
+					{#each projects as project}
+						<Project {project} />
+					{/each}
+				</div>
 			</div>
 		</div>
 	</div>
