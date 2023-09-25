@@ -8,7 +8,7 @@
 	};
 </script>
 
-<div id="header" class="flex flex-col">
+<div id="header" class="flex flex-col gap-2">
 	<div class="flex flex-row justify-between items-top">
 		<div>
 			<h1 class="text-3xl font-bold uppercase">{info.name}</h1>
