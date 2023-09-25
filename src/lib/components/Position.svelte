@@ -9,7 +9,6 @@
 	<div class="flex flex-row items-center justify-between gap-2">
 		<div class="flex flex-row items-center gap-2">
 			<span class="text-2xl font-bold text-primary">{position.title}</span>
-
 			<div class="flex flex-row gap-1">
 				{#each position.tags || [] as tag}
 					<span class="badge badge-ghost">{tag}</span>
