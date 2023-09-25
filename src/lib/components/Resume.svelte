@@ -23,7 +23,7 @@
 					<SectionTitle>Summary</SectionTitle>
 					<Separator />
 				</div>
-				<span class="prose">
+				<span class="prose text-black">
 					{summary}
 				</span>
 			</div>

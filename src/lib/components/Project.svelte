@@ -16,6 +16,6 @@
 		</div>
 	</div>
 	{#if project.description}
-		<span class="prose">{project.description}</span>
+		<span class="prose text-black">{project.description}</span>
 	{/if}
 </div>

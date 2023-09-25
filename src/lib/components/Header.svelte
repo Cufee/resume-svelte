@@ -2,10 +2,6 @@
 	import type { PersonalInfo } from '$lib/types';
 
 	export let info: PersonalInfo;
-
-	const copyToClipboard = (text: string) => {
-		window.navigator.clipboard.writeText(text);
-	};
 </script>
 
 <div id="header" class="flex flex-col gap-2">

@@ -31,7 +31,7 @@
 	{#if position.description}
 		<span class="prose">{position.description}</span>
 	{/if}
-	<ul class="gap-0 prose list-disc">
+	<ul class="gap-0 prose text-black list-disc">
 		{#each position.achievements as point}
 			<li>{point}</li>
 		{/each}
