@@ -18,9 +18,11 @@
 			<div class="h-8 rounded-lg badge badge-outline badge-lg badge-primary">
 				{info.email}
 			</div>
-			<div class="w-full h-8 rounded-lg badge badge-outline badge-lg badge-primary">
-				{info.number}
-			</div>
+			{#if info.number}
+				<div class="w-full h-8 rounded-lg badge badge-outline badge-lg badge-primary">
+					{info.number}
+				</div>
+			{/if}
 		</div>
 	</div>
 	<div class="flex flex-row gap-2">
