@@ -5,7 +5,7 @@
 </script>
 
 <div class="flex flex-col gap-2">
-	<div class="flex flex-row flex-wrap items-start justify-between gap-2 md:items-center">
+	<div class="flex flex-row flex-wrap items-start justify-between gap-2">
 		<div class="flex flex-col flex-wrap gap-2 md:items-center md:flex-row">
 			<span class="text-2xl font-bold text-primary">{position.title}</span>
 			<div class="flex flex-row gap-1">

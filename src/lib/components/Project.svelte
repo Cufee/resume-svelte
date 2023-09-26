@@ -6,7 +6,7 @@
 </script>
 
 <div class="flex flex-col gap-1">
-	<div class="flex flex-row items-center justify-between gap-2">
+	<div class="flex flex-row items-start justify-between gap-2">
 		<div class="flex flex-row flex-wrap items-center gap-2">
 			<div class="flex flex-row items-center">
 				{#if !project.link.url}

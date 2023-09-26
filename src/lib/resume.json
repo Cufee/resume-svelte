@@ -135,8 +135,7 @@
         {
             "name": "OpenMemoryDB",
             "tags": [
-                "Go",
-                "Fiber"
+                "Go"
             ],
             "link": {
                 "name": "@Cufee"
