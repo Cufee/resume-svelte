@@ -116,7 +116,7 @@
                 "TypeScript",
                 "Deno"
             ],
-            "description": "A user-friendly CLI tool for pulling and configuring multiple git repositories in parallel once."
+            "description": "A user-friendly CLI tool for pulling and configuring multiple git repositories blazingly fast."
         },
         {
             "name": "Aftermath",
