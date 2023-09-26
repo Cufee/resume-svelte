@@ -1,6 +1,5 @@
 <script lang="ts">
 	import Header from '$lib/components/Header.svelte';
-	import Position from '$lib/components/Position.svelte';
 	import SkillList from '$lib/components/SkillList.svelte';
 	import type { Resume } from '$lib/types';
 
