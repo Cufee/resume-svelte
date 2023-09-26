@@ -31,6 +31,9 @@ export interface Position {
 export interface Project {
   name: string;
   description: string;
-  url?: string;
+  link: {
+    name: string;
+    url?: string;
+  };
   tags?: string[];
 }

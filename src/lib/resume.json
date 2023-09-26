@@ -116,6 +116,9 @@
                 "TypeScript",
                 "Deno"
             ],
+            "link": {
+                "name": "@Cufee"
+            },
             "description": "A user-friendly CLI tool for pulling and configuring multiple git repositories blazingly fast."
         },
         {
@@ -124,6 +127,9 @@
                 "Go",
                 "Kubernetes"
             ],
+            "link": {
+                "name": "@Cufee"
+            },
             "description": "Highly rated Discord Bot used by over 4000 servers. It provides a better in-game progress tracking for World Of Tanks Blitz with a beautiful UI rendered as an image."
         },
         {
@@ -132,6 +138,9 @@
                 "Go",
                 "Fiber"
             ],
+            "link": {
+                "name": "@Cufee"
+            },
             "description": "A lightweight in-memory key-value database with support for persistence and a CRUD API wrapper using Go Fiber."
         }
     ]

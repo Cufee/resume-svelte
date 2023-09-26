@@ -15,7 +15,7 @@
 
 <div id="page" class="flex flex-col gap-8 cursor-default">
 	<Header {info} />
-	<div id="content" class="flex flex-row gap-8">
+	<div id="content" class="flex flex-col gap-8 md:flex-row">
 		<div id="primary" class="flex flex-col gap-4 basis-2/3">
 			<div class="flex flex-col gap-1">
 				<div>
