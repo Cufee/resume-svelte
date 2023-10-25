@@ -10,7 +10,7 @@
 	{#each experience as position, i}
 		<div class="flex flex-col gap-2">
 			<Description {position} />
-			<PositionTimeBar positions={[...experience]} highlight={i} />
+			<PositionTimeBar {position} />
 		</div>
 	{/each}
 </div>

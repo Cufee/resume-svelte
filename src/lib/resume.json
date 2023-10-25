@@ -32,7 +32,7 @@
             "website": "https://www.alertmedia.com/",
             "period": {
                 "from": "2022",
-                "to": "2023"
+                "to": "Present"
             },
             "location": "Remote",
             "achievements": [
@@ -110,6 +110,18 @@
         }
     ],
     "projects": [
+        {
+            "name": "Feedlr",
+            "tags": [
+                "Go",
+                "HTMX/templ"
+            ],
+            "link": {
+                "name": "@Cufee",
+                "url": "https://github.com/Cufee/feedlr-yt"
+            },
+            "description": "Feedlr.app offers a refreshing open-source solution for managing your YouTube subscriptions. This free platform is designed to provide an uninterrupted viewing experience, completely free from distracting elements and bothersome advertisements."
+        },
         {
             "name": "Pulley",
             "tags": [
