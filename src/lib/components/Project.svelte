@@ -7,14 +7,14 @@
 
 <div class="flex flex-col gap-1">
 	<div class="flex flex-row items-start justify-between gap-2">
-		<div class="flex flex-row flex-wrap items-center gap-2">
+		<div class="flex flex-col gap-1">
 			<div class="flex flex-row items-center gap-1">
+				<span class="text-xl font-bold text-primary">{project.name}</span>
 				{#if project.private}
 					<div class="w-4 h-4 text-gray-400 tooltip" data-tip="This project is private">
 						<LockIcon />
 					</div>
 				{/if}
-				<span class="text-xl font-bold text-primary">{project.name}</span>
 			</div>
 			<div class="flex flex-row gap-1">
 				{#each project.tags || [] as tag}

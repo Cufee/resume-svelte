@@ -1,7 +1,7 @@
 {
     "info": {
         "name": "Vlad Kouzin",
-        "slogan": "A great simplifier of all things technology based",
+        "slogan": "A highly motivated technology enthusiast",
         "email": "vkouzin@outlook.com",
         "links": [
             {
@@ -18,14 +18,16 @@
             }
         ]
     },
-    "summary": "Highly motivated and experienced software engineer seeking a remote position to leverage my skills in solving complex problems with simple, efficient solutions. Passionate about contributing to a team that values innovation, quality, and growth.",
+    "summary": "Experienced software engineer with a passion for solving complex problems efficiently. Seeking a remote position to contribute to an innovative team focused on quality and growth.",
     "expandPositionsUrl": "https://linkedin.com/in/vkouzin/",
     "positions": [
         {
-            "title": "Full Stack",
+            "title": "Full Stack Developer",
             "tags": [
                 "React",
-                "Node",
+                "Node.js",
+                "AWS",
+                "OpenAI",
                 "Terraform"
             ],
             "company": "AlertMedia",
@@ -36,17 +38,18 @@
             },
             "location": "Remote",
             "achievements": [
-                "Developed multiple web applications for internal use by engineering and management teams",
-                "Built multiple CLI tools to automate common tasks for the engineering team and improve developer onboarding experience",
-                "Simplified Docker Compose configurations, designing a clear framework for maintaining and adding new services",
-                "Refactored legacy code, improved pipeline run time from over an hour to 7 minutes"
+                "Developed web applications for internal use by engineering and management teams",
+                "Automated common tasks and improved developer onboarding with CLI tools",
+                "Streamlined Docker Compose configurations for enhanced service management",
+                "Created Slack integrations for user group management and on-call rotations",
+                "Refactored legacy code and optimized CI/CD pipeline, reducing runtime from over an hour to 7 minutes"
             ]
         },
         {
-            "title": "Full Stack",
+            "title": "Full Stack Developer",
             "tags": [
                 "React",
-                "Node",
+                "Node.js",
                 "Go",
                 "Kubernetes"
             ],
@@ -58,15 +61,15 @@
             },
             "location": "Remote",
             "achievements": [
-                "Built popular customer-facing tools and add-ons to expand the feature set of Chili Piper",
-                "Wrote extensive documentation and \"magic\" scripts to simplify the onboarding process for new customers",
-                "Developed industry leading tools for our Customer Success team, reducing response times and increasing customer satisfaction",
-                "Made an internal support portal aggregating data from multiple sources to provide a single source of truth for our Customer Success team",
-                "Maintained a Kubernetes cluster with all internal services and tools"
+                "Built customer-facing tools and add-ons to enhance Chili Piper's features",
+                "Simplified onboarding with documentation and automation scripts",
+                "Developed tools for the Customer Success team, reducing response times and improving satisfaction",
+                "Created an internal support portal for consolidated data access",
+                "Managed a Kubernetes cluster with internal services and tools"
             ]
         },
         {
-            "title": "Customer Support",
+            "title": "Customer Support Specialist",
             "tags": [
                 "JavaScript",
                 "Python"
@@ -79,8 +82,8 @@
             },
             "location": "Remote",
             "achievements": [
-                "Designed custom tools and scripts to allow more organized workflows",
-                "Wrote documentation on routines for efficient troubleshooting of hardware and software issues",
+                "Designed custom tools and scripts for streamlined workflows",
+                "Authored troubleshooting documentation for hardware and software issues",
                 "Handled highly confidential information"
             ]
         }
@@ -90,12 +93,13 @@
             "items": [
                 "Go",
                 "Python",
-                "TypeScript"
+                "TypeScript",
+                "OpenAI"
             ]
         },
         {
             "items": [
-                "Node, Deno",
+                "Node.js, Deno",
                 "Express, Fiber",
                 "React, Svelte, HTMX"
             ]
@@ -117,10 +121,10 @@
                 "HTMX/templ"
             ],
             "link": {
-                "name": "@Cufee",
+                "name": "GitHub",
                 "url": "https://github.com/Cufee/feedlr-yt"
             },
-            "description": "Feedlr.app offers a refreshing open-source solution for managing your YouTube subscriptions. This free platform is designed to provide an uninterrupted viewing experience, completely free from distracting elements and bothersome advertisements."
+            "description": "Open-source solution for managing YouTube subscriptions, providing an uninterrupted viewing experience."
         },
         {
             "name": "Pulley",
@@ -130,10 +134,10 @@
             ],
             "private": true,
             "link": {
-                "name": "@Cufee",
+                "name": "GitHub",
                 "url": "https://github.com/Cufee"
             },
-            "description": "A user-friendly CLI tool for pulling and configuring multiple git repositories blazingly fast."
+            "description": "User-friendly CLI tool for fast git repository management."
         },
         {
             "name": "Aftermath",
@@ -143,10 +147,10 @@
             ],
             "private": true,
             "link": {
-                "name": "@Cufee",
+                "name": "GitHub",
                 "url": "https://github.com/Cufee"
             },
-            "description": "Highly rated Discord Bot used by over 4000 servers. It provides a better in-game progress tracking for World Of Tanks Blitz with a beautiful UI rendered as an image."
+            "description": "Highly rated Discord Bot for in-game progress tracking with a beautiful UI."
         },
         {
             "name": "OpenMemoryDB",
@@ -155,10 +159,10 @@
             ],
             "private": true,
             "link": {
-                "name": "@Cufee",
+                "name": "GitHub",
                 "url": "https://github.com/Cufee"
             },
-            "description": "A lightweight in-memory key-value database with support for persistence and a CRUD API wrapper using Go Fiber."
+            "description": "Lightweight in-memory key-value database with CRUD API using Go Fiber."
         }
     ]
 }
