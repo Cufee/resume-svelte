@@ -4,7 +4,7 @@ export interface Resume {
   summary: string;
   expandPositionsUrl: string;
   skills: { header?: string; items: string[] }[];
-  projects: [];
+  projects: Project[];
 }
 
 export interface PersonalInfo {
@@ -35,5 +35,6 @@ export interface Project {
     name: string;
     url?: string;
   };
+  private: boolean;
   tags?: string[];
 }

@@ -8,9 +8,9 @@
 <div class="flex flex-col gap-1">
 	<div class="flex flex-row items-start justify-between gap-2">
 		<div class="flex flex-row flex-wrap items-center gap-2">
-			<div class="flex flex-row items-center">
-				{#if !project.link.url}
-					<div class="w-4 h-4 text-black">
+			<div class="flex flex-row items-center gap-1">
+				{#if project.private}
+					<div class="w-4 h-4 text-gray-400 tooltip" data-tip="This project is private">
 						<LockIcon />
 					</div>
 				{/if}

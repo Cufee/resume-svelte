@@ -128,8 +128,10 @@
                 "TypeScript",
                 "Deno"
             ],
+            "private": true,
             "link": {
-                "name": "@Cufee"
+                "name": "@Cufee",
+                "url": "https://github.com/Cufee"
             },
             "description": "A user-friendly CLI tool for pulling and configuring multiple git repositories blazingly fast."
         },
@@ -139,8 +141,10 @@
                 "Go",
                 "Kubernetes"
             ],
+            "private": true,
             "link": {
-                "name": "@Cufee"
+                "name": "@Cufee",
+                "url": "https://github.com/Cufee"
             },
             "description": "Highly rated Discord Bot used by over 4000 servers. It provides a better in-game progress tracking for World Of Tanks Blitz with a beautiful UI rendered as an image."
         },
@@ -149,8 +153,10 @@
             "tags": [
                 "Go"
             ],
+            "private": true,
             "link": {
-                "name": "@Cufee"
+                "name": "@Cufee",
+                "url": "https://github.com/Cufee"
             },
             "description": "A lightweight in-memory key-value database with support for persistence and a CRUD API wrapper using Go Fiber."
         }
